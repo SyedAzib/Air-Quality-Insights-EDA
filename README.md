@@ -54,11 +54,9 @@ The project includes the following visualizations:
 
 ### 🗺 Map Visualization
 One of the highlights of this project is the **interactive AQI map** built using Folium. It allows you to explore pollution levels geographically across different Indian cities.
-```
+![Map](Visualization/map.7.png)
 
-
-  ```
-  You can download the file `aqi_map.html` for opening it in any browser for full interactivity.
+You can download the file "aqi_map.html" and open it in any browser to view the full interactivity.
 
 ---
 
