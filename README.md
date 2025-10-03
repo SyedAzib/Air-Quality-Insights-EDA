@@ -36,38 +36,29 @@ Files used:
 
 ---
 
-## 🔍 EDA Questions Answered
-1. Which cities have the highest average AQI?
-2. How does AQI vary by month or season?
-3. What pollutants are recorded, and what are their average levels?
-4. Which city has the cleanest air on average?
-5. Are there any missing data patterns in the dataset?
-6. Which cities consistently exceed safe pollution limits?
-7. How do pollution levels vary between weekdays and weekends?
 
 ---
 
 ## 📊 Visualizations
 The project includes the following visualizations:
 
-- 📈 **Bar chart** of Top 10 most polluted cities by AQI
 - 📉 **Line plot** showing monthly AQI trends for selected cities
+![Line plot](Visualization/AQI.2.png)
+
 - 🔥 **Heatmap** showing correlation between pollutants (`PM2.5`, `PM10`, `NO2`, `SO2`, `O3`, `CO`)
-- 🌦 **Seasonal comparison plot** of average AQI levels
+![Heatmap](Visualization/AQI.3.png)
+
 - 🏭 **Stacked bar chart** of pollutant contributions across cities
-- 🗺 **Map visualization** showing geographic distribution of AQI values
-- 📦 **Boxplot** comparing AQI across major cities
+![Bar chart](Visualization/AQI.5.png)
+
 
 ### 🗺 Map Visualization
 One of the highlights of this project is the **interactive AQI map** built using Folium. It allows you to explore pollution levels geographically across different Indian cities.
+```
 
-- In the notebook, you can view the **interactive Folium map** directly.
-- For GitHub, a **screenshot of the map** has been included for quick preview.
-- The map can also be exported as an HTML file:
-  ```python
-  my_map.save('aqi_map.html')
+
   ```
-  You can then open `aqi_map.html` in any browser for full interactivity.
+  You can download the file `aqi_map.html` for opening it in any browser for full interactivity.
 
 ---
 
